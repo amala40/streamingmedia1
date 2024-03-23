@@ -12,14 +12,13 @@
 
     </header>
     <nav>
-        <h2>Main Navigation</h2>
-        <input type="checkbox" id="dropdown"/>
-        <label for="dropdown"><span></span></label>
-        <ul>
-            <li><h1>MUZAKMAKER</h1></li>
-            <li>TRENDING SONGS</li>
-            <li>YOUR PLAYLISTS</li>
-            <li>CURATED PLAYLISTS</li>
+        <input class="menu-btn" type="checkbox" id="dropdown"/>
+        <label class="menu-icon" for="dropdown"><span></span></label>
+        <ul class="menu">
+            <li class= "first"><a href="#">MuzakMaker</a></li>
+            <li><a href="#trendingsongs">TRENDING SONGS</a></li>
+            <li><a href="#yourplaylists">YOUR PLAYLISTS</a></li>
+            <li><a href="#curatedplaylists">CURATED PLAYLISTS</a></li>
             <li><a href="#"><img src="images/duke-silver.png" alt="image of jazz musician"> </a></li>
         </ul>
     </nav>
@@ -41,7 +40,7 @@
                 </section>
                 <section id="myroad">
                     <div>
-                        <h3>Aloma</h3>
+                        <h3>My Road</h3>
                         <p>Artist Nesterouk</p>
                     </div>
                     <img src="images/my-road-cover.png" alt="">
@@ -72,7 +71,7 @@
                     <audio controls src="audio/successful-performance.mp3"></audio>
                 </section>
             </div>
-                <a href="#">More trending</a>
+            <a href="#">More trending</a>
         </section>
         <section id="playlists">
             <section id="yourplaylists">
@@ -135,7 +134,7 @@
                 </section>
                 <section id="mellow">
                     <img src="images/mellow-cover.png" alt="">
-                    <div>
+                    <div class="mellow">
                         <h3>Mellow</h3>
                         <p>Relax after a stressful day with this collection of extra smooth jazz.</p>
                     </div>
